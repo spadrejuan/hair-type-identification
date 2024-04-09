@@ -1,0 +1,9 @@
+First run:
+Categorical w/ relu, accuracy
+Epoch 50/50
+25/25 [==============================] - 3s 93ms/step - loss: 0.9096 - accuracy: 0.5546 - val_loss: 1.0365 - val_accuracy: 0.4518
+
+Second run:
+Epoch 50/50
+25/25 [==============================] - 3s 94ms/step - loss: 0.9101 - accuracy: 0.5571 - val_loss: 1.0225 - val_accuracy: 0.4924
+
