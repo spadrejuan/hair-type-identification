@@ -1,1 +1,8 @@
+# dataset
 /hair_types
+# Jupyter checkpoints
+/.ipynb_checkpoints
+# code checker
+sample.ipynb
+# callback files
+/test_logs/checkpoint

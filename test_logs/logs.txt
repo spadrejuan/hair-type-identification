@@ -7,3 +7,10 @@ Second run:
 Epoch 50/50
 25/25 [==============================] - 3s 94ms/step - loss: 0.9101 - accuracy: 0.5571 - val_loss: 1.0225 - val_accuracy: 0.4924
 
+Third run: with Augmented images async
+Epoch 50/50
+25/25 [==============================] - 3s 100ms/step - loss: 0.9543 - accuracy: 0.5038 - val_loss: 1.0548 - val_accuracy: 0.4365
+
+Fourth run: with fixed model code and successful image augmentation
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 9s 330ms/step - accuracy: 0.8884 - loss: 0.3056 - val_accuracy: 0.6294 - val_loss: 1.1919

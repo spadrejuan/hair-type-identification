@@ -29,3 +29,7 @@ For graphviz, here is the website for guides to install for your specific Operat
 ```
 https://graphviz.gitlab.io/download/
 ```
+5. For MacOS, refer to the guide of installing Tensorflow below to avoid kernel issues and version miscompatiblities
+```
+https://developer.apple.com/metal/tensorflow-plugin/
+```
