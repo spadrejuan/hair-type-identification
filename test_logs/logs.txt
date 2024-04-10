@@ -16,3 +16,14 @@ Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 9s 330ms/step - accuracy: 0.8884 - loss: 0.3056 - val_accuracy: 0.6294 - val_loss: 1.1919
 
 Fifth run: Use softmax for activation
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 6s 224ms/step - accuracy: 0.9052 - loss: 0.2286 - val_accuracy: 0.5990 - val_loss: 1.4583
+
+Sixth run: Added random zoom to address overfitting
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 7s 240ms/step - accuracy: 0.8749 - loss: 0.3267 - val_accuracy: 0.6497 - val_loss: 1.0710
+
+Seventh run: Added horizontal and vertical to augmentation
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 7s 270ms/step - accuracy: 0.7611 - loss: 0.5667 - val_accuracy: 0.4315 - val_loss: 1.5054
+
