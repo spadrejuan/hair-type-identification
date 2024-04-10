@@ -14,3 +14,5 @@ Epoch 50/50
 Fourth run: with fixed model code and successful image augmentation
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 9s 330ms/step - accuracy: 0.8884 - loss: 0.3056 - val_accuracy: 0.6294 - val_loss: 1.1919
+
+Fifth run: Use softmax for activation
