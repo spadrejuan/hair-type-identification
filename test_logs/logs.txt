@@ -34,3 +34,11 @@ Epoch 50/50
 Ninth run: Remove zoom as augment, remove from_logit
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 6s 200ms/step - accuracy: 0.7455 - loss: 0.5939 - val_accuracy: 0.5584 - val_loss: 1.7366
+
+10th run: Replace image size to 128x128
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 15s 590ms/step - accuracy: 0.7598 - loss: 0.5496 - val_accuracy: 0.6599 - val_loss: 0.9330
+
+11th run: Added back Adam as optimizer with learning rate 0.001
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 14s 529ms/step - accuracy: 0.8287 - loss: 0.4255 - val_accuracy: 0.5584 - val_loss: 2.1104
