@@ -6,3 +6,5 @@
 sample.ipynb
 # callback files
 /test_logs/checkpoint
+#vscode
+/.vscode

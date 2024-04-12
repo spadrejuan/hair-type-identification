@@ -42,3 +42,19 @@ Epoch 50/50
 11th run: Added back Adam as optimizer with learning rate 0.001
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 14s 529ms/step - accuracy: 0.8287 - loss: 0.4255 - val_accuracy: 0.5584 - val_loss: 2.1104
+
+12th run: Reduce epochs to 30
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 19s 744ms/step - accuracy: 0.7574 - loss: 0.5425 - val_accuracy: 0.6650 - val_loss: 0.6967
+
+13th run: Attempt to rewrite for readable code
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 7s 258ms/step - accuracy: 0.7645 - loss: 0.5485 - val_accuracy: 0.6904 - val_loss: 0.6233
+
+14th run: Use RMS optimizer with ReduceLROnPlateau callback
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 5s 185ms/step - accuracy: 0.7024 - loss: 0.6219 - val_accuracy: 0.6650 - val_loss: 0.7551
+
+15th run: Try EPOCH to 50
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 6s 198ms/step - accuracy: 0.7985 - loss: 0.4780 - val_accuracy: 0.6954 - val_loss: 0.8149
