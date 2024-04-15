@@ -62,3 +62,24 @@ Epoch 50/50
 16th run: Try early stopping and EPOCHS to 30, patience = 5
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 152ms/step - accuracy: 0.7258 - loss: 0.6130 - val_accuracy: 0.6294 - val_loss: 0.8923
+
+17th run: New Model Architecture
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 59ms/step - accuracy: 0.8225 - loss: 0.4739 - val_accuracy: 0.5612 - val_loss: 1.1106
+
+18th run: Added BatchNormalization and Regularization
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 92ms/step - accuracy: 0.5755 - loss: 0.9040 - val_accuracy: 0.5459 - val_loss: 1.1103
+
+19th run: Added strides, and GlobalPooling to Dense Layers. Also added Dropout for Dense Layers and dropped to 64
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 114ms/step - accuracy: 0.7280 - loss: 0.8958 - val_accuracy: 0.4949 - val_loss: 1.2946
+
+20th run: Try GlobalAveragePooling2D(), and drop Dense to 32
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 150ms/step - accuracy: 0.6419 - loss: 0.9213 - val_accuracy: 0.4337 - val_loss: 1.1836
+
+21st run: Try Image to 256
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 11s 434ms/step - accuracy: 0.6668 - loss: 0.8919 - val_accuracy: 0.5153 - val_loss: 1.0632
+
