@@ -58,3 +58,7 @@ Epoch 30/30
 15th run: Try EPOCH to 50
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 6s 198ms/step - accuracy: 0.7985 - loss: 0.4780 - val_accuracy: 0.6954 - val_loss: 0.8149
+
+16th run: Try early stopping and EPOCHS to 30, patience = 5
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 152ms/step - accuracy: 0.7258 - loss: 0.6130 - val_accuracy: 0.6294 - val_loss: 0.8923
