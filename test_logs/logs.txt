@@ -83,3 +83,8 @@ Epoch 50/50
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 11s 434ms/step - accuracy: 0.6668 - loss: 0.8919 - val_accuracy: 0.5153 - val_loss: 1.0632
 
+22nd run: Added LearningRateScheduler
+Epoch 30/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 151ms/step - accuracy: 0.3369 - loss: 1.1168 - val_accuracy: 0.2857 - val_loss: 1.1186 - learning_rate: 1.2500e-04
+
+23rd run: Added more preprocessed data and more kernel depth. Removed BatchNormalization and Max2DPooling, back to 128 size

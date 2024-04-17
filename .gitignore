@@ -8,3 +8,5 @@ sample.ipynb
 /test_logs/checkpoint
 #vscode
 /.vscode
+#
+/image_classification
