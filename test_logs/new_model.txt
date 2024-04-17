@@ -6,6 +6,14 @@ Epoch 50/50
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 96ms/step - accuracy: 0.7240 - loss: 0.6413 - val_accuracy: 0.5816 - val_loss: 1.0233
 
+3rd run: Added BatchNormalization and Added Global2DPooling. Added Dropout = 0.25
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 107ms/step - accuracy: 0.7989 - loss: 0.4656 - val_accuracy: 0.5561 - val_loss: 1.4524
 
+4th run: Try 256x256. Added 3rd run metrics to each Conv2D
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 12s 457ms/step - accuracy: 0.8307 - loss: 0.4282 - val_accuracy: 0.5765 - val_loss: 1.3643
+
+5th run: Go back to 128x128. Add Learning Rate Scheduler
 
 
