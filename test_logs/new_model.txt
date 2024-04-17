@@ -1,10 +1,11 @@
 1st run: New Model
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 74ms/step - accuracy: 0.8020 - loss: 0.5009 - val_accuracy: 0.6173 - val_loss: 1.0344
-This image is 100.00 percent Curly Hair, 0.00 percent Straight Hair, 0.00 percent Wavy Hair.
-hair_types/Straight_Hair/
-1/1 ━━━━━━━━━━━━━━━━━━━━ 0s 9ms/step
-This image is 4.62 percent Curly Hair, 67.14 percent Straight Hair, 28.24 percent Wavy Hair.
-2nd run: Added Brightness and Contrast
+
+2nd run: Added Conv2D
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 96ms/step - accuracy: 0.7240 - loss: 0.6413 - val_accuracy: 0.5816 - val_loss: 1.0233
+
+
 
 
