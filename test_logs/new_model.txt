@@ -15,5 +15,10 @@ Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 12s 457ms/step - accuracy: 0.8307 - loss: 0.4282 - val_accuracy: 0.5765 - val_loss: 1.3643
 
 5th run: Go back to 128x128. Add Learning Rate Scheduler
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 129ms/step - accuracy: 0.6653 - loss: 0.7373 - val_accuracy: 0.5510 - val_loss: 0.9630 - learning_rate: 1.0000e-09
 
+6th run: Add RandomTranslation, and adjusted Learning Rate Scheduler
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 113ms/step - accuracy: 0.7110 - loss: 0.6580 - val_accuracy: 0.4949 - val_loss: 1.1324 - learning_rate: 1.2500e-04
 
