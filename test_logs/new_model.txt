@@ -22,3 +22,8 @@ Epoch 50/50
 Epoch 50/50
 25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 113ms/step - accuracy: 0.7110 - loss: 0.6580 - val_accuracy: 0.4949 - val_loss: 1.1324 - learning_rate: 1.2500e-04
 
+7th run: Double Stack Conv2D. Remove Data Augmentation
+Epoch 50/50
+25/25 ━━━━━━━━━━━━━━━━━━━━ 17s 661ms/step - accuracy: 0.8651 - loss: 0.3764 - val_accuracy: 0.6327 - val_loss: 0.9400 - learning_rate: 9.7656e-07
+
+8th run: Epoch = 30, Try Data Augmentation again.
