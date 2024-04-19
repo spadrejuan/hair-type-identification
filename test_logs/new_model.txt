@@ -30,4 +30,22 @@ Epoch 50/50
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 18s 684ms/step - accuracy: 0.7777 - loss: 0.5253 - val_accuracy: 0.5408 - val_loss: 0.9188 - learning_rate: 1.2500e-04
 
-9th run: Simplify model
+9th run: Simplify mode
+TEST: 0.9921, VAL: 0.6122
+
+10th run: Add Dropout = 0.25
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 62ms/step - accuracy: 0.9836 - loss: 0.0548 - val_accuracy: 0.6276 - val_loss: 1.7356 - learning_rate: 3.9063e-06
+
+11th run: Try Lasso Regularizer for Absolute Value
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 68ms/step - accuracy: 0.9773 - loss: 0.3130 - val_accuracy: 0.6122 - val_loss: 2.2398 - learning_rate: 7.8125e-06
+
+12th run: Ridge Regularizer
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 61ms/step - accuracy: 0.9839 - loss: 0.1191 - val_accuracy: 0.5969 - val_loss: 1.8617 - learning_rate: 3.9063e-06
+
+13th run: Add Global2DPooling and BatchNormalization back
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 83ms/step - accuracy: 0.8128 - loss: 0.5611 - val_accuracy: 0.6531 - val_loss: 0.8588 - learning_rate: 2.5000e-04
+
