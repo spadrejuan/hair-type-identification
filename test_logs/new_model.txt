@@ -49,3 +49,30 @@ Epoch 30/30
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 83ms/step - accuracy: 0.8128 - loss: 0.5611 - val_accuracy: 0.6531 - val_loss: 0.8588 - learning_rate: 2.5000e-04
 
+14th run: Remove Regularizer
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 76ms/step - accuracy: 0.7407 - loss: 0.6075 - val_accuracy: 0.5561 - val_loss: 0.8666 - learning_rate: 6.2500e-05
+
+15th run: Go back to 8th run model but with 224x224 images and 64 batch size
+Epoch 30/30
+13/13 ━━━━━━━━━━━━━━━━━━━━ 5s 313ms/step - accuracy: 0.9963 - loss: 0.0173 - val_accuracy: 0.5867 - val_loss: 1.7860 - learning_rate: 3.9063e-06
+
+16th run: Go back to 128x128 and 32 batch. Add Ridge Regularizer to Dense layer
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 64ms/step - accuracy: 0.9935 - loss: 0.1188 - val_accuracy: 0.6122 - val_loss: 1.8370 - learning_rate: 7.8125e-06
+
+17th run: Lasso Regularizer
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 63ms/step - accuracy: 0.8886 - loss: 0.5410 - val_accuracy: 0.6071 - val_loss: 1.2690 - learning_rate: 1.2500e-04
+
+18th run: L1_L2 w/ default value
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 66ms/step - accuracy: 0.9928 - loss: 0.0252 - val_accuracy: 0.6122 - val_loss: 2.0266 - learning_rate: 1.9531e-06
+
+19th run: Try Nadam Optimizer
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 69ms/step - accuracy: 0.9937 - loss: 0.0139 - val_accuracy: 0.6122 - val_loss: 1.9825 - learning_rate: 3.9063e-06
+
+20th run: Try 730 Seed to prove whether the problem aligns with the dataset
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 67ms/step - accuracy: 0.9940 - loss: 0.0109 - val_accuracy: 0.6990 - val_loss: 1.5212 - learning_rate: 3.9063e-06
