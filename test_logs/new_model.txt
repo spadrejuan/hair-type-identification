@@ -81,4 +81,18 @@ Epoch 30/30
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 60ms/step - accuracy: 0.9885 - loss: 0.0862 - val_accuracy: 0.7092 - val_loss: 1.0771 - learning_rate: 7.8125e-06
 
-22nd run: Back to Adam, New Hyperparameter optimization
+22nd run: Try with Strides = 1
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 57ms/step - accuracy: 0.9838 - loss: 0.1162 - val_accuracy: 0.6837 - val_loss: 1.0499 - learning_rate: 7.8125e-06
+
+23rd run: Try even simpler model, back to 1337 for uniformity with Demo
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 57ms/step - accuracy: 0.9655 - loss: 0.2393 - val_accuracy: 0.6071 - val_loss: 0.9328 - learning_rate: 7.8125e-06
+
+24th run: Add BatchNormalization and Dropout to 0.50. Add back the commented kernel in 23rd run:
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 4s 140ms/step - accuracy: 0.9366 - loss: 0.1957 - val_accuracy: 0.5306 - val_loss: 3.6960 - learning_rate: 1.9531e-06
+
+25h run: Removed overfitting methods but try Data Augmentation again
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 120ms/step - accuracy: 0.7850 - loss: 0.5328 - val_accuracy: 0.5918 - val_loss: 0.9244 - learning_rate: 1.5625e-05
