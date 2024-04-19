@@ -76,3 +76,9 @@ Epoch 30/30
 20th run: Try 730 Seed to prove whether the problem aligns with the dataset
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 67ms/step - accuracy: 0.9940 - loss: 0.0109 - val_accuracy: 0.6990 - val_loss: 1.5212 - learning_rate: 3.9063e-06
+
+21st run: Try Adamax
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 60ms/step - accuracy: 0.9885 - loss: 0.0862 - val_accuracy: 0.7092 - val_loss: 1.0771 - learning_rate: 7.8125e-06
+
+22nd run: Back to Adam, New Hyperparameter optimization
