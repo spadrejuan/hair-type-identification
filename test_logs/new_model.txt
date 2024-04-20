@@ -109,3 +109,19 @@ Epoch 30/30
 Epoch 30/30
 50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 44ms/step - accuracy: 0.9963 - loss: 0.0079 - val_accuracy: 0.6429 - val_loss: 2.4778 - learning_rate: 3.9063e-06
 
+29th run: Last try to add overfitting fixes like Dropout and BatchNormalization
+Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 69ms/step - accuracy: 0.8173 - loss: 0.4732 - val_accuracy: 0.6429 - val_loss: 0.7207 - learning_rate: 6.2500e-05
+
+30th run: Separate Activation and add DilationRate
+Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 69ms/step - accuracy: 0.7105 - loss: 0.6865 - val_accuracy: 0.5969 - val_loss: 0.8259 - learning_rate: 3.1250e-05
+
+31st run: Back to Base Model but add DilationRate(2,2)
+Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 42ms/step - accuracy: 0.9961 - loss: 0.0151 - val_accuracy: 0.6429 - val_loss: 2.2510 - learning_rate: 3.9063e-06
+
+32nd run: Removed DilationRate, add 256x256 with BatchSize=16
+Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 164ms/step - accuracy: 0.9963 - loss: 0.0071 - val_accuracy: 0.6224 - val_loss: 2.5908 - learning_rate: 1.9531e-06
+
