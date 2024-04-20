@@ -96,3 +96,16 @@ Epoch 30/30
 25h run: Removed overfitting methods but try Data Augmentation again
 Epoch 30/30
 25/25 ━━━━━━━━━━━━━━━━━━━━ 3s 120ms/step - accuracy: 0.7850 - loss: 0.5328 - val_accuracy: 0.5918 - val_loss: 0.9244 - learning_rate: 1.5625e-05
+
+26th run: 0.0001 LR with Adam
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 60ms/step - accuracy: 0.9355 - loss: 0.2570 - val_accuracy: 0.6122 - val_loss: 1.0137 - learning_rate: 7.8125e-07
+
+27th run: 0.001 LR with Adam
+Epoch 30/30
+25/25 ━━━━━━━━━━━━━━━━━━━━ 2s 61ms/step - accuracy: 0.9930 - loss: 0.0225 - val_accuracy: 0.6173 - val_loss: 2.0149 - learning_rate: 3.9063e-06
+
+28th run: Try BatchSize to 16
+Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 44ms/step - accuracy: 0.9963 - loss: 0.0079 - val_accuracy: 0.6429 - val_loss: 2.4778 - learning_rate: 3.9063e-06
+
