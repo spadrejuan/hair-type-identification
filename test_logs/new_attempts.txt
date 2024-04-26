@@ -1,0 +1,7 @@
+1. Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 11s 215ms/step - accuracy: 0.8084 - loss: 0.6296 - val_accuracy: 0.5000 - val_loss: 1.4147 - learning_rate: 3.1250e-05
+Add dropout and batch normalization
+
+2. Epoch 30/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 11s 218ms/step - accuracy: 0.7927 - loss: 0.7087 - val_accuracy: 0.5867 - val_loss: 1.2486 - learning_rate: 6.2500e-05
+Simpler model
