@@ -5,3 +5,8 @@ Added GlobalMaxPooling2D, and Dropout Layer in Output Layer (0.5)
 Epoch 30/30
 50/50 ━━━━━━━━━━━━━━━━━━━━ 5s 95ms/step - accuracy: 0.6544 - loss: 0.8470 - val_accuracy: 0.4796 - val_loss: 1.0252 - learning_rate: 1.0000e-09
 Added BatchNormalization with new 2D Layer with Filter = 16 and Kernel Size = 3,3
+
+Epoch 24/30
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 71ms/step - accuracy: 0.9227 - loss: 0.2429 - val_accuracy: 0.6071 - val_loss: 1.0686 - learning_rate: 1.0000e-07
+Added functional early stopping
+
