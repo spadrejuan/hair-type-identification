@@ -10,3 +10,32 @@ Epoch 24/30
 50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 71ms/step - accuracy: 0.9227 - loss: 0.2429 - val_accuracy: 0.6071 - val_loss: 1.0686 - learning_rate: 1.0000e-07
 Added functional early stopping
 
+Epoch 26/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 6s 110ms/step - accuracy: 0.8925 - loss: 0.2738 - val_accuracy: 0.6633 - val_loss: 1.0250 - learning_rate: 1.0000e-08
+4 Conv2D and 512 Dense
+
+Epoch 27/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 66ms/step - accuracy: 0.7401 - loss: 0.5915 - val_accuracy: 0.6071 - val_loss: 0.8464 - learning_rate: 1.0000e-08
+Added GlobalAveragePooling
+
+Epoch 33/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 85ms/step - accuracy: 0.7847 - loss: 0.5472 - val_accuracy: 0.6378 - val_loss: 0.8685 - learning_rate: 1.0000e-09
+Changed Kernel Size of Even to (5,5)
+
+Epoch 22/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 6s 102ms/step - accuracy: 0.7085 - loss: 0.6556 - val_accuracy: 0.5918 - val_loss: 0.8909 - learning_rate: 1.0000e-07
+Odd - (5,5) Even (7,7)
+
+Epoch 26/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 5s 95ms/step - accuracy: 0.7140 - loss: 0.6228 - val_accuracy: 0.6276 - val_loss: 0.8851 - learning_rate: 1.0000e-08
+With Sync = True
+
+Epoch 22/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 5s 100ms/step - accuracy: 0.6502 - loss: 0.7159 - val_accuracy: 0.5816 - val_loss: 0.8997 - learning_rate: 1.0000e-07
+No Pooling and BatchNormalization in last two
+
+Epoch 25/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 158ms/step - accuracy: 0.4766 - loss: 1.0264 - val_accuracy: 0.4694 - val_loss: 1.0495 - learning_rate: 1.0000e-08
+Go back to Base Model, but add GlobalAveragePooling
+
+
