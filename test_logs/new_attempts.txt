@@ -51,3 +51,22 @@ Epoch 33/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 52ms/step - accuracy: 0.9499 - loss: 0.2024 - val_accuracy: 0.6888 - val_loss: 0.7336 - learning_rate: 1.0000e-06
 Add 16 filter Layer
 
+Epoch 25/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 45ms/step - accuracy: 0.8405 - loss: 0.4660 - val_accuracy: 0.6531 - val_loss: 0.7606 - learning_rate: 1.0000e-06
+Commented out two BatchNormalization
+
+Epoch 27/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 40ms/step - accuracy: 0.7935 - loss: 0.4748 - val_accuracy: 0.6276 - val_loss: 0.9556 - learning_rate: 1.0000e-06
+Removed GlobalAveragePooling2D and added Dropouts
+
+Epoch 27/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 50ms/step - accuracy: 0.8004 - loss: 0.5000 - val_accuracy: 0.6429 - val_loss: 0.8391 - learning_rate: 1.0000e-06
+Look at Model Summary
+
+Epoch 33/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 53ms/step - accuracy: 0.7716 - loss: 0.5340 - val_accuracy: 0.6429 - val_loss: 0.7876 - learning_rate: 1.0000e-07
+Different Kernel Sizes
+
+Epoch 24/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 47ms/step - accuracy: 0.9895 - loss: 0.0871 - val_accuracy: 0.6480 - val_loss: 1.3088 - learning_rate: 1.0000e-06
+
