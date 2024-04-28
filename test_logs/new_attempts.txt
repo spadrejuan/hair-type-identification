@@ -34,8 +34,20 @@ Epoch 22/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 5s 100ms/step - accuracy: 0.6502 - loss: 0.7159 - val_accuracy: 0.5816 - val_loss: 0.8997 - learning_rate: 1.0000e-07
 No Pooling and BatchNormalization in last two
 
-Epoch 25/50
-50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 158ms/step - accuracy: 0.4766 - loss: 1.0264 - val_accuracy: 0.4694 - val_loss: 1.0495 - learning_rate: 1.0000e-08
+Epoch 36/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 78ms/step - accuracy: 0.5375 - loss: 0.9521 - val_accuracy: 0.4847 - val_loss: 1.0113 - learning_rate: 1.0000e-06
 Go back to Base Model, but add GlobalAveragePooling
 
+
+Epoch 26/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 150ms/step - accuracy: 0.5483 - loss: 0.9948 - val_accuracy: 0.4949 - val_loss: 1.0230 - learning_rate: 1.0000e-05
+Add more filters
+
+Epoch 45/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 56ms/step - accuracy: 0.7645 - loss: 0.5626 - val_accuracy: 0.6582 - val_loss: 0.7663 - learning_rate: 1.0000e-07
+Dropouts and GlobalAveragePooling2D
+
+Epoch 33/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 52ms/step - accuracy: 0.9499 - loss: 0.2024 - val_accuracy: 0.6888 - val_loss: 0.7336 - learning_rate: 1.0000e-06
+Add 16 filter Layer
 
