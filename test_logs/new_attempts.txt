@@ -38,7 +38,6 @@ Epoch 36/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 4s 78ms/step - accuracy: 0.5375 - loss: 0.9521 - val_accuracy: 0.4847 - val_loss: 1.0113 - learning_rate: 1.0000e-06
 Go back to Base Model, but add GlobalAveragePooling
 
-
 Epoch 26/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 150ms/step - accuracy: 0.5483 - loss: 0.9948 - val_accuracy: 0.4949 - val_loss: 1.0230 - learning_rate: 1.0000e-05
 Add more filters
@@ -70,3 +69,9 @@ Different Kernel Sizes
 Epoch 24/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 47ms/step - accuracy: 0.9895 - loss: 0.0871 - val_accuracy: 0.6480 - val_loss: 1.3088 - learning_rate: 1.0000e-06
 
+Epoch 50/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 2s 42ms/step - accuracy: 0.5623 - loss: 0.9766 - val_accuracy: 0.5408 - val_loss: 1.0120 - learning_rate: 1.0000e-10
+
+Epoch 24/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 152ms/step - accuracy: 0.9729 - loss: 0.1625 - val_accuracy: 0.6224 - val_loss: 0.9995 - learning_rate: 1.0000e-07
+BASE
