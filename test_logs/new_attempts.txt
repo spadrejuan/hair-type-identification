@@ -75,3 +75,11 @@ Epoch 50/50
 Epoch 24/50
 50/50 ━━━━━━━━━━━━━━━━━━━━ 8s 152ms/step - accuracy: 0.9729 - loss: 0.1625 - val_accuracy: 0.6224 - val_loss: 0.9995 - learning_rate: 1.0000e-07
 BASE
+
+Epoch 24/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 10s 188ms/step - accuracy: 0.9922 - loss: 0.0665 - val_accuracy: 0.6020 - val_loss: 0.8902 - learning_rate: 1.0000e-07
+.3 Dropout
+
+Epoch 30/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 13s 242ms/step - accuracy: 0.9805 - loss: 0.1092 - val_accuracy: 0.6071 - val_loss: 0.8755 - learning_rate: 1.0000e-07
+Add stride, padding, and dilation rate
