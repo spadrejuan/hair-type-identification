@@ -1,0 +1,8 @@
+Epoch 33/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 3s 52ms/step - accuracy: 0.9499 - loss: 0.2024 - val_accuracy: 0.6888 - val_loss: 0.7336 - learning_rate: 1.0000e-06
+Add 16 filter Layer
+
+Learning Rate = 0.0001
+Epoch 27/50
+50/50 ━━━━━━━━━━━━━━━━━━━━ 5s 100ms/step - accuracy: 0.7276 - loss: 0.6704 - val_accuracy: 0.6071 - val_loss: 0.8585 - learning_rate: 1.0000e-07
+
