@@ -1,6 +1,9 @@
-# This is a CNN model trained to identify hair types using the given dataset
+# 1. This is a CNN model trained to identify hair types using the given dataset
 
-## Prerequisites
+- [1. This is a CNN model trained to identify hair types using the given dataset](#1-this-is-a-cnn-model-trained-to-identify-hair-types-using-the-given-dataset)
+  - [1.1. Prerequisites](#11-prerequisites)
+
+## 1.1. Prerequisites
 
 1. Make sure to have Python installed. For Conda, there is no available Tensorflow versions available for Python 3.12. To downgrade, use this commands
 
@@ -9,6 +12,7 @@ conda install python=3.x
 ```
 
 where x is the version you want to downgrade to
+
 Additionally, the conda package ipykernel is also needed to run Jupyter notebooks
 
 ```Python
